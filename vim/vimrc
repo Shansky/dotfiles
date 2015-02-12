@@ -1,0 +1,18 @@
+" the following line adds line number to the text.
+set nu
+
+
+" the following line activates the syntax highlighting.
+syntax on
+
+" change color theme for vim - chack $HOME/.vim/colors/
+colors wombat
+
+" the following line says to vim to highlight the searched words.
+set hlsearch
+
+" the following line says to vim to execute incremental search.
+set incsearch
+
+" the following line enables the use of the mouse.
+set mouse=a
