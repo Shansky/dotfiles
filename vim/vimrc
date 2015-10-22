@@ -28,7 +28,8 @@ set incsearch
 set mouse=a
 
 "
-" VundleVim Plugin Configuration
+" VundleVim Plugin configuration
+" more info: https://github.com/VundleVim/Vundle.vim
 "
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -52,6 +53,7 @@ Plugin 'AutoComplPop'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'junegunn/goyo.vim'
+Plugin 'easymotion/vim-easymotion'
 "Plugin 'terryma/vim-multiple-cursors'
 " colors list
 Plugin 'wombat'
