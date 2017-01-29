@@ -1,0 +1,49 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#91FFB1"
+  title_transmit_fg_color = "#000000"
+[keybindings]
+  go_up = <Alt>Up
+  go_down = <Alt>Down
+  go_right = <Alt>Right
+  go_left = <Alt>Left
+  split_horiz = <Alt>D
+  split_vert = <Alt><Shift>D
+  resize_up = <Ctrl><Shift>Up
+  resize_down = <Ctrl><Shift>Down
+  resize_left = <Ctrl><Shift>Left
+  resize_right = <Ctrl><Shift>Right
+  move_tab_right = <Alt><Shift>Right
+  move_tab_left = <Alt><Shift>Left
+  next_tab = <Ctrl>Tab
+  prev_tab = <Ctrl><Shift>Tab
+  toggle_scrollbar = <Ctrl><Shift>S
+  search = <Ctrl><Shift>F
+  group_all = <Ctrl>G
+  ungroup_all = <Ctrl><Shift>G
+  group_tab = <Alt>G
+  ungroup_tab = <Alt><Shift>G
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_9 = <Alt>9
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_3 = <Alt>3
+[layouts]
+  [[default]]
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_image = None
+    copy_on_selection = True
+    cursor_shape = ibeam
+    foreground_color = "#839496"
+    scrollback_infinite = True
+    font = Ubuntu Mono derivative Powerline Regular 10
+    xterm = xterm-256color
+
